@@ -1,0 +1,45 @@
+body{
+     background-image: url("https://t4.ftcdn.net/jpg/08/66/97/55/360_F_866975564_89kgIHwCDVp9BurmllGWQRclmk6Sz2Ud.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+     font-family: "Tiny5", sans-serif;
+     font-weight: 400;
+}
+#mainBox{
+     background-color:azure;
+     width: 600px;
+     height: 600px;
+     border-radius: 5%;
+     border: 5px solid white;
+     margin-top: 50px;
+     position: absolute;
+     top: 47%;
+     left:  49%;
+     transform: translate(-40%,-49%);
+     box-shadow: 0 0 20px 5px black;
+
+}
+h1{
+     animation: head 5s infinite ease-in-out;
+
+}
+@keyframes head {
+     0%,100%{
+
+     }
+     50%{
+          translate: 10px 20px;
+     }
+}
+#btn{
+     padding: 10px;
+     margin-top: 10px;
+     font-size: 20px;
+     position: relative;
+     transition-duration: 0.1s;
+     transition-timing-function: ease-out;
+     font-weight: 700;
+     background-color: lightcyan;
+     animation: button 5s infinite ease-in-out;
+}
